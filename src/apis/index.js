@@ -10,7 +10,7 @@ export const goldDaily = async (usd) => {
     //    console.log(getPrice);
         return {date,items}
     } catch (error) {
-        console.log(error);
+        // console.log(error);
     }    
 }
 
@@ -29,6 +29,6 @@ export const exchange = async () => {
         // console.log(USDEGP,source);
         return { quotes: {USDEGP,USDSAR,USDAED,USDTRY}, timestamp,source}
     } catch (error) {
-        console.log(error);
+        // console.log(error);
     }
 } 
